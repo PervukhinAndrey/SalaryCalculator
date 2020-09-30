@@ -1,0 +1,29 @@
+.salaryCalculator{
+    padding: 55px 24px 0 24px;
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+.salaryCalculatorHeader{
+    color: #aaa;
+}
+
+
+.rublesImg{
+    width: 12px;
+    height: 12px;
+}
+.hide{
+    visibility: hidden;
+}
+
+.calculator{
+    display: inline-block;
+    background-color: #fbf4da;
+    padding: 25px 25px;
+
+}
+.stringBlock{
+    height: 30px;
+}

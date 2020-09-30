@@ -1,0 +1,19 @@
+.infoImg{
+    position: absolute;
+    top: 3px;
+    right:-20px;
+    width: 16px;
+    height: 16px;
+
+}
+
+.info{
+    background: url("../../../img/information.svg");
+}
+.info:hover{
+    background: url("../../../img/information2.svg");
+}
+
+.cancel{
+    background: url("../../../img/cancel.svg");
+}

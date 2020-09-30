@@ -1,0 +1,24 @@
+
+.switchBlock{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.switchText{
+    display: block;
+    padding-right: 6px;
+}
+.black{
+    color: #000;
+}
+.gray{
+    color: #aaa;
+}
+.radioFieldset{
+    margin-bottom: 15px;
+}
+
+.hide{
+    visibility: hidden;
+}

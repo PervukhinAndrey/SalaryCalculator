@@ -1,0 +1,72 @@
+.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #fca136;
+    border-color: #fca136;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.custom-control-input:not(:checked) ~ .custom-control-label::before {
+    outline: 0;
+    background-color: #e9e8e6;
+    border-color: #e9e8e6;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.custom-switch .custom-control-label::after {
+
+    background-color: #fff;
+
+}
+
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #fff;
+    border-color: #aaa;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.custom-radio .custom-control-input:not(:checked) ~ .custom-control-label::before {
+    background-color: #fff;
+    border-color: #aaa;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='4' fill='%23000'/%3e%3c/svg%3e");
+}
+
+.form-control {
+
+    border-radius: 16px;
+    width: 190px;
+}
+
+
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    bottom: 0;
+    left: 5px;
+    border-width: 0 0.4rem 0.7rem 0;
+    border-bottom-color: #5e6cab;
+    border-left-color: #5e6cab;
+}
+
+.tooltip-inner {
+    max-width: 250px;
+    padding: 0.25rem 0.5rem;
+    color: #fff;
+    text-align:left;
+    background-color: #5e6cab;
+    border-radius: 0 ;
+    position: relative;
+    left:7px;
+}
+
